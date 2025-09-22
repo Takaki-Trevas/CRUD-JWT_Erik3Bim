@@ -1,5 +1,4 @@
-//const fs = require('fs');
-import fs from 'fs';
+import fs from 'fs'; //usado para recuperar dados 
 const caminho = require('path');
 const caminhoDados = caminho.join(__dirname, '../db.json');
 
