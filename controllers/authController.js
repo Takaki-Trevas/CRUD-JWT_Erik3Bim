@@ -1,6 +1,6 @@
-const bcrypt = require('bcryptjs');
-const jwt = require('jsonwebtoken');
-const { v4: uuidv4 } = require('uuid');
+const bcrypt = require('bcryptjs'); //verificador das senhas
+const jwt = require('jsonwebtoken'); // 
+const { v4: uuidv4 } = require('uuid'); //geração de ids
 const { readDb, writeDb } = require('../utils/db');
 const { SECRET } = require('../middleware/auth');
 
