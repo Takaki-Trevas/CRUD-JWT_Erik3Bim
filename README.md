@@ -41,7 +41,10 @@ Gera um JWT válido por 1h.
           └─ users.js
 
 
-#Comentários:
+# Comentários:
 -  npm install -g json-server -> instala o necessário para usar o db.json como database
 -  json-server --watch db.json -> inicia e verificação
+
+
+## Falta Testar e arrumar certos erros!!!!
 
